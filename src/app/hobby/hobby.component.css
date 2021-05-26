@@ -1,0 +1,33 @@
+h1{
+  color: blueviolet;
+  margin-left: 100px;
+}
+h3{
+  text-decoration:overline;
+  font-style: italic;
+}
+.hobby_description{
+  width: 500px;
+  height: 150px;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10%;
+  border-color:  black;
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 20px;
+}
+.container-div{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+.img-div{
+  width: 250px;
+  height: 350px;
+  background-size: 100% 100%;
+  margin: 5px;
+  border-width: 5px;
+  border-color: blue;
+  border-style: ridge;
+}

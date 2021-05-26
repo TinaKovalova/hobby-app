@@ -1,0 +1,9 @@
+<h3>Странное хобби...</h3>
+<h1>{{ titleHobby }}</h1>
+<p class="hobby_description">{{ description }}</p>
+<div class="container-div" *ngIf="images">
+  <div *ngFor="let image of images"
+    class="img-div"
+    [ngStyle]="{'background-image': 'url(' + image + ')'}"
+  ></div>
+</div>
